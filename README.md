@@ -14,7 +14,7 @@ After cleaning the text data, there were some steps to be taken before feeding i
 
 Using NLTK, I removed the stop words for less confusion among which words the model has to use, and lemmatized to get root form of the words. 
 
-##Initializing BERTopic Model
+## Initializing BERTopic Model
 I went through many options like using OpenAI's GPT-3 for topic identification, using SpaCy for NER or Named Entity Recognition, but could not use OpenAI with uncertainity of the cost of using it and I was not satisfied by my findings using SpaCy.
 
 Finally I came across an article about Topic Modeling and Latent Dirichlet Allocation or LDA. I saw how you could use the BERT language model transformer for topic identification through BERTopic sentance transformers.
