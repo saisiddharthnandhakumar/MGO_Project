@@ -9,7 +9,11 @@ Began with an internship at the company and performed many tasks from
 - UI/UX design 
 - Answering customer tickets. 
 
-The issues I was curious about was why MyGovernmentOnline was receiving so many customer tickets over the phone and over feedback forms. I was not able to access phone records, but instead got the customer ticket data through the feedback forms.
+The issues I was curious about was why MyGovernmentOnline was receiving so many customer tickets over the phone and over feedback forms. 
+I was not able to access phone records, but instead got the customer ticket data through the feedback forms.
+
+## Data Collection
+I initially wanted to get the customer ticket data from the JIRA rest API. However, when getting the JSON file with all the customer tickets, there seemed to be a problem
 
 ## Description Column Cleaning
 
@@ -24,9 +28,11 @@ Using NLTK, I removed the stop words for less confusion among which words the mo
 ## EDA (Exploratory Data Analysis)
 My initial approach to this project was to just use a deep learning model and to let the model answer all the questions. However, my professor quickly made me understand why that was the wrong approach to solve a problem. 
 
+Below is all my visualizations from my findings. (Also Won the Morris Coats Business Research Award At Nicholls State University)
+
 ![research poster](https://i.imgur.com/VuWalyX.png)
 
-## Initializing BERTopic Model
+## BERTopic 
 I went through many options like using OpenAI's GPT-3 for topic identification, using SpaCy for NER or Named Entity Recognition, but could not use OpenAI with uncertainity of the cost of using it and I was not satisfied by my findings using SpaCy.
 
 Finally I came across an article about Topic Modeling and Latent Dirichlet Allocation or LDA. I saw how you could use the BERT language model transformer for topic identification through BERTopic sentance transformers.
