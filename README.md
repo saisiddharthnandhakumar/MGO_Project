@@ -1,7 +1,13 @@
 # MGO Customer Ticket Analysis
+
+## Introduction
 This was a University Project which I did along with my professor Dr.En Mao who is CAP certified. 
 
-Began with an internship at the company and performed many tasks from software application testing on Android, ios, and windows, change requests, UI/UX design, and answering customer tickets. 
+Began with an internship at the company and performed many tasks from 
+- Software application testing on Android, ios, and windows
+- Form change requests
+- UI/UX design 
+- Answering customer tickets. 
 
 The issues I was curious about was why MyGovernmentOnline was receiving so many customer tickets over the phone and over feedback forms. I was not able to access phone records, but instead got the customer ticket data through the feedback forms.
 
