@@ -18,7 +18,7 @@ Using NLTK, I removed the stop words for less confusion among which words the mo
 ## EDA (Exploratory Data Analysis)
 My initial approach to this project was to just use a deep learning model and to let the model answer all the questions. However, my professor quickly made me understand why that was the wrong approach to solve a problem. 
 
-![research poster](https://drive.google.com/uc?export=view&id=17nY0NWbNUbtriZldN24SlJdA6VOPFv_B)
+![research poster]((https://imgur.com/VuWalyX))
 
 ## Initializing BERTopic Model
 I went through many options like using OpenAI's GPT-3 for topic identification, using SpaCy for NER or Named Entity Recognition, but could not use OpenAI with uncertainity of the cost of using it and I was not satisfied by my findings using SpaCy.
