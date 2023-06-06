@@ -9,11 +9,11 @@ Began with an internship at the company and performed many tasks from
 - UI/UX design 
 - Answering customer tickets. 
 
-The issues I was curious about was why MyGovernmentOnline was receiving so many customer tickets over the phone and over feedback forms. 
+The issue I was curious about was why MyGovernmentOnline was receiving so many customer tickets over the phone and over feedback forms. 
 I was not able to access phone records, but instead got the customer ticket data through the feedback forms.
 
 ## Data Collection
-I initially wanted to get the customer ticket data from the JIRA rest API. However, when getting the JSON file with all the customer tickets, there seemed to be a problem
+I initially wanted to get the customer ticket data from the JIRA rest API. However, when getting the JSON file with all the customer tickets, there seemed to be a problem with their API. Instead I had to manually download all the .csv files. Each file had 10,000 tickets which meant nearly 100 downloads.
 
 ## Description Column Cleaning
 
@@ -23,6 +23,7 @@ The description column of the csv file was the most important column I needed in
 
 ## Text Preprocessing
 After cleaning the text data, there were some steps to be taken before feeding it into a machine learning model. 
+I used **R** to merge all the data from the .csv files together.
 Using NLTK, I removed the stop words for less confusion among which words the model has to use, and lemmatized to get root form of the words. 
 
 ## EDA (Exploratory Data Analysis)
@@ -39,3 +40,8 @@ Finally I came across an article about Topic Modeling and Latent Dirichlet Alloc
 
 After reading through I used UMAP for dimension reduction and HDBScan for the clustering model. 
 Tokenization and embedding is done under the hood in BERTopic.
+
+## Recommendations
+1. The first recommendation I made (which is in teh bottom left of the poster), was a mockup FAQ page I made in order to answer single one word answerable questions. This would save teh customers and the cust. representatives a lot time which would usually be wasted in communication over customer tickets.
+2. The second was to provide a how-to-do video for tasks which are slightly more complex and require a much more detailed explanation of the steps to be taken
+3. Staffing strategies such as providing 4 day work weeks, or half work days, would make the employees much less stressed as the nature of the job is stressful enough. 
