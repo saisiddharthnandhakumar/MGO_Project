@@ -2,7 +2,9 @@
 
 ### Tech Stack
 Programming Languages: Python, R
+
 Tools: Tableau, AWS Sagemaker Studio, Microsoft Excel, Microsoft Powerpoint
+
 Frameworks: Scikit-Learn, Gradio, BERTopic, GPT-3 (OpenAI)
 
 ## Introduction
