@@ -1,6 +1,8 @@
 # MGO Customer Ticket Analysis
 This was a University Project which I did along with my professor Dr.En Mao who is CAP certified. 
 
+Began with an internship at the company and performed many tasks from software application testing on Android, ios, and windows, change requests, UI/UX design, and answering customer tickets. 
+
 The issues I was curious about was why MyGovernmentOnline was receiving so many customer tickets over the phone and over feedback forms. I was not able to access phone records, but instead got the customer ticket data through the feedback forms.
 
 ## Description Column Cleaning
@@ -11,8 +13,12 @@ The description column of the csv file was the most important column I needed in
 
 ## Text Preprocessing
 After cleaning the text data, there were some steps to be taken before feeding it into a machine learning model. 
-
 Using NLTK, I removed the stop words for less confusion among which words the model has to use, and lemmatized to get root form of the words. 
+
+## EDA (Exploratory Data Analysis)
+My initial approach to this project was to just use a deep learning model and to let the model answer all the questions. However, my professor quickly made me understand why that was the wrong approach to solve a problem. 
+
+![Alt Text]([image_url](https://drive.google.com/file/d/17nY0NWbNUbtriZldN24SlJdA6VOPFv_B/view?usp=sharing))
 
 ## Initializing BERTopic Model
 I went through many options like using OpenAI's GPT-3 for topic identification, using SpaCy for NER or Named Entity Recognition, but could not use OpenAI with uncertainity of the cost of using it and I was not satisfied by my findings using SpaCy.
