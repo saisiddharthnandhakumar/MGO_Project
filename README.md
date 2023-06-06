@@ -50,3 +50,4 @@ Tokenization and embedding is done under the hood in BERTopic.
 Finally to help customer service representatives, I created a web-app for employees which takes the customer tickets as input to identify if the issues were company related issues and if so, summarize the complex, long customer ticket into a clearly understandable text which then easily could be addressed
 
 I used Gradio for deployment which is a light framework to deploy web-apps and automatically handles the hosting as well. The main engine behind it is the GPT-3 model which uses the Open-AI API. 
+![image](https://github.com/saisiddharthnandhakumar/MGO_Project/assets/79336332/a660d342-2638-4a14-a58a-176657810fb7)
