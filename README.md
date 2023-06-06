@@ -1,5 +1,8 @@
 # MGO Customer Ticket Analysis
 
+### Tech Stack
+Python, R, Tableau, AWS Sagemaker Studio, Microsoft Excel, 
+
 ## Introduction
 This was a University Project which I did along with my professor Dr.En Mao who is CAP certified. 
 
