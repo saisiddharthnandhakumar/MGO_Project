@@ -42,6 +42,6 @@ After reading through I used UMAP for dimension reduction and HDBScan for the cl
 Tokenization and embedding is done under the hood in BERTopic.
 
 ## Recommendations
-1. The first recommendation I made (which is in teh bottom left of the poster), was a mockup FAQ page I made in order to answer single one word answerable questions. This would save teh customers and the cust. representatives a lot time which would usually be wasted in communication over customer tickets.
+1. The first recommendation I made (which is in the bottom left of the poster), was a mockup FAQ page I made in order to answer single one word answerable questions. This would save the customers and the cust. representatives a lot time which would usually be wasted in communication over customer tickets.
 2. The second was to provide a how-to-do video for tasks which are slightly more complex and require a much more detailed explanation of the steps to be taken
 3. Staffing strategies such as providing 4 day work weeks, or half work days, would make the employees much less stressed as the nature of the job is stressful enough. 
