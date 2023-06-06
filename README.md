@@ -45,3 +45,8 @@ Tokenization and embedding is done under the hood in BERTopic.
 1. The first recommendation I made (which is in the bottom left of the poster), was a mockup FAQ page I made in order to answer single one word answerable questions. This would save the customers and the cust. representatives a lot time which would usually be wasted in communication over customer tickets.
 2. The second was to provide a how-to-do video for tasks which are slightly more complex and require a much more detailed explanation of the steps to be taken
 3. Staffing strategies such as providing 4 day work weeks, or half work days, would make the employees much less stressed as the nature of the job is stressful enough. 
+
+## GPT-3 Powered Web-Application
+Finally to help customer service representatives, I created a web-app for employees which takes the customer tickets as input to identify if the issues were company related issues and if so, summarize the complex, long customer ticket into a clearly understandable text which then easily could be addressed
+
+I used Gradio for deployment which is a light framework to deploy web-apps and automatically handles the hosting as well. The main engine behind it is the GPT-3 model which uses the Open-AI API. 
