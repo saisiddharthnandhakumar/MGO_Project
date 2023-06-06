@@ -1,7 +1,9 @@
 # MGO Customer Ticket Analysis
 
 ### Tech Stack
-Python, R, Tableau, AWS Sagemaker Studio, Microsoft Excel, 
+Programming Languages: Python, R
+Tools: Tableau, AWS Sagemaker Studio, Microsoft Excel, Microsoft Powerpoint
+Frameworks: Scikit-Learn, Gradio, BERTopic, GPT-3 (OpenAI)
 
 ## Introduction
 This was a University Project which I did along with my professor Dr.En Mao who is CAP certified. 
